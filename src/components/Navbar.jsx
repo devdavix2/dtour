@@ -84,7 +84,7 @@ const Navbar = () => {
             Register
           </Link>
           <button
-                  className="bg-white hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 mb-2 rounded-md"
+                  className="bg-white hover:bg-blue-900 text-gray-900 font-bold py-2 px-4 mt-4 rounded-md"
                 
               >
                 Login
@@ -97,7 +97,7 @@ const Navbar = () => {
       <div
         className={`${
           menu ? "translate-x-0" : "translate-x-full"
-        } lg:hidden flex flex-col absolute bg-darkBackground text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+        } lg:hidden flex flex-col absolute bg-darkBackground text-white left-0 top-20 font-medium text-lg text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
       >
         <Link
           to="home"
