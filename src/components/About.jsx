@@ -3,8 +3,8 @@ import img from '../assets/img/about.jpg';
 
 const About = () => {
   return (
-    <section className="about-us-container  bg-darkBackground   lg:m-12 rounded-md">
-      <h2 className="text-3xl font-bold  mx-auto  lg:p-10 text-center text-white">About Us</h2>
+    <section className="about-us-container  bg-darkBackground   lg:m-20 rounded-md">
+      <h2 className="text-3xl font-bold  mx-auto p-10 lg:pt-10 text-center text-white">About Us</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
         <div className="flex items-center justify-center">
