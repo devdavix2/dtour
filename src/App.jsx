@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Features from './components/Features';
@@ -8,6 +8,12 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 const App = () => {
+  useEffect(() => {
+    console.log('Setting document title');
+    document.title = 'Dtours | Travel Agency';
+  }, []);
+  
+
   return (
     <div>
       <Navbar />
@@ -18,13 +24,13 @@ const App = () => {
         <div id="features">
           <Features />
         </div>
-        <div  id="destinations">
+        <div id="destinations">
           <Destinations />
         </div>
-        <div  id="about">
+        <div id="about">
           <About />
         </div>
-        <div  id="contact">
+        <div id="contact">
           <Contact />
         </div>
         <div>
