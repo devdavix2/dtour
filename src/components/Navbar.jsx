@@ -84,7 +84,7 @@ const Navbar = () => {
             Register
           </Link>
           <button
-                  className="bg-white hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 mt-4 rounded-md"
+                  className="bg-white hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-4 rounded-md"
                 
               >
                 Login
@@ -155,7 +155,7 @@ const Navbar = () => {
             Register
           </Link>
           <button
-                  className="bg-white hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 mt-4 rounded-md"
+                  className="bg-white hover:bg-blue-200 text-gray-900 font-bold py-2 px-2 mt-4 rounded-md"
                 
               >
                 Login
