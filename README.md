@@ -2,7 +2,7 @@
 
 Welcome to Dtour, your personalized travel agency website, meticulously crafted by [devdavix](https://github.com/devdavix) and designed to make your travel dreams come true.
 
-![Dtour Logo](link/to/your/logo.png)
+
 
 ## Features
 
