@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="mt-14 lg:mt-0 w-full lg:w-4/5">
-                <img src={img} alt="img" width={500} height={400} /> 
+                <img src={img} alt="img" width={400} height={300} /> 
             </div>
         </div>
     );
