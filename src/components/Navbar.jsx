@@ -1,7 +1,6 @@
-// src/components/Navbar.jsx
+
 import React, { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
-import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,15 +9,9 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const navigate = (url) => {
-    console.log(`Navigate to: ${url}`);
-    toggleMenu();
-    scroll.scrollToTop();
-  };
-
   return (
     <nav className="bg-gray-900 p-4 px-10 lg:mx-4 lg:mt-4 lg:rounded-md relative">
-      <div className="container mx-auto ">
+      <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <div className="text-white font-bold text-xl">
             <h1>Dtour</h1>
@@ -34,47 +27,11 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex space-x-4">
-            <Link to="home" spy={true} smooth={true} offset={-70} duration={500}>
-              <button
-                className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4"
-                onClick={() => navigate("#home")}
-              >
-                Home
-              </button>
-            </Link>
-            <Link to="features" spy={true} smooth={true} offset={-70} duration={500}>
-              <button
-                className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4"
-                onClick={() => navigate("#home")}
-              >
-                Features
-              </button>
-            </Link>
-            <Link to="destinations" spy={true} smooth={true} offset={-70} duration={500}>
-              <button
-                className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4"
-                onClick={() => navigate("#home")}
-              >
-                Destinations
-              </button>
-              </Link>
-              <Link to="about" spy={true} smooth={true} offset={-70} duration={500}>
-              <button
-                className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4"
-                onClick={() => navigate("#home")}
-              >
-                About
-              </button>
-              </Link>
-              <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>
-              <button
-                className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4"
-                onClick={() => navigate("#home")}
-              >
-                Contact
-              </button>
-            </Link>
-       
+            <a href="#home" className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4">Home</a>
+            <a href="#features" className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4">Features</a>
+            <a href="#destinations" className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4">Destinations</a>
+            <a href="#about" className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4">About</a>
+            <a href="#contact" className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4">Contact</a>
           </div>
 
           <div
@@ -91,53 +48,11 @@ const Navbar = () => {
               >
                 <FiX />
               </button>
-              <Link
-                to="home"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <button
-                  className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4"
-                  onClick={() => navigate("#home")}
-                >
-                  Home
-                </button>
-              </Link>
-              <Link to="features" spy={true} smooth={true} offset={-70} duration={500}>
-              <button
-                className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4"
-                onClick={() => navigate("#home")}
-              >
-                Features
-              </button>
-              </Link>
-              <Link to="destinations" spy={true} smooth={true} offset={-70} duration={500}>
-              <button
-                className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4"
-                onClick={() => navigate("#home")}
-              >
-                Destinations
-              </button>
-              </Link>
-              <Link to="about" spy={true} smooth={true} offset={-70} duration={500}>
-              <button
-                className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4"
-                onClick={() => navigate("#home")}
-              >
-                About
-              </button>
-              </Link>
-              <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>
-              <button
-                className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4"
-                onClick={() => navigate("#home")}
-              >
-                Contact
-              </button>
-            </Link>
-           
-         
+              <a href="#home" className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4">Home</a>
+              <a href="#features" className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4">Features</a>
+              <a href="#destinations" className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4">Destinations</a>
+              <a href="#about" className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4">About</a>
+              <a href="#contact" className="hover:text-brightColor transition-all cursor-pointer text-white py-2 px-4">Contact</a>
             </div>
           </div>
 
