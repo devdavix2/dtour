@@ -2,8 +2,7 @@ import React from "react";
 import img from '../assets/img/travel.png';
 
 const Home = () => {
-    const backgroundColor = 'bg-brightColor';
-
+   
     return (
 
         <div className="min-h-screen lg:min-h-[70vh] flex flex-col justify-center lg:flex-row items-center md:mx-32 mt-5 ">
@@ -27,7 +26,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="mt-14 lg:mt-0 w-full lg:w-4/5">
-                <img src={img} alt="img" /> 
+                <img src={img} alt="img" width={500} height={400} /> 
             </div>
         </div>
     );

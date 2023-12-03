@@ -25,7 +25,7 @@ const Features = () => {
     <div className="flex rounded-5xl lg:m-24 gap-2 flex-col lg:flex-row">
       {/* Left Column with Image */}
       <div className="lg:w-1/2 rounded-5xl">
-        <img src={imageUrl} alt="Travel Destination" className="w-full h-auto mb-2 p-5 rounded-5xl" />
+        <img src={imageUrl}  width={300} height={200} alt="Travel Destination" className="w-full h-auto mb-2 p-5 rounded-5xl" />
       </div>
 
       {/* Right Column with Features */}

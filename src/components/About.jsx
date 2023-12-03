@@ -8,7 +8,7 @@ const About = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
         <div className="flex items-center justify-center">
-          <img src={img} alt="About Our Travel Agency" className="w-full h-auto rounded-md p-8" />
+          <img src={img}  width={400} height={300} alt="About Our Travel Agency" className="w-full h-auto rounded-md p-8" />
         </div>
 
         <div className="flex flex-col p-5 mb-20 justify-center">
