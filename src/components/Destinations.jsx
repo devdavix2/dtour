@@ -34,6 +34,7 @@ const Destinations = () => {
         {destination.map((destination) => (
           <div key={destination.id} className="destination-card mx-auto p-10 mb-5 max-w-md lg:mr-5">
             <img
+               width={300} height={200}
               src={destination.imageUrl}
               alt={destination.title}
               className="w-full h-auto rounded-md"
