@@ -6,9 +6,13 @@ const Home = () => {
 
     return (
 
-        <div className="min-h-screen lg:min-h-[70vh] flex flex-col justify-center lg:flex-row items-center md:mx-32 ">
+        <div className="min-h-screen lg:min-h-[70vh] flex flex-col justify-center lg:flex-row items-center md:mx-32 mt-5 ">
             <div className="flex flex-col text-center lg:text-start gap-5">
-                <h1 className="font-semibold text-5xl ">Explore the Ultimate Travel Destinations</h1>
+           <h1 className="font-semibold text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+  Explore the Ultimate Travel Destinations
+</h1>
+
+
                 <p>
                     Embark on unforgettable journeys with Dtours, where we curate the
                     ultimate destinations for your next adventure.
